@@ -1,14 +1,12 @@
 package com.kryptames.game;
 
-import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class PacmanGame extends Game {
 	public SpriteBatch batch;
+	public static final int HEIGHT = 600;
+    public static final int WIDTH = 800;
 	
 	@Override
 	public void create () {
